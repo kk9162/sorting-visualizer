@@ -119,12 +119,12 @@ export default class SortVisualizer extends React.Component { // allows class to
                         <button className='button-properties' onClick={this.handleMergeButton}>
                             MERGE SORT
                         </button>
-                        <button className='button-properties' onClick={this.handleQuickButton}>
+                        {/* <button className='button-properties' onClick={this.handleQuickButton}>
                             QUICK SORT
                         </button>
                         <button className='button-properties' onClick={this.handleHeapButton}>
                             HEAP SORT
-                        </button>
+                        </button> */}
                     </div>
 
 
